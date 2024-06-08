@@ -13,7 +13,7 @@ public class Main {
         int i=0;
         //String newWord="";
         for (String word : wordList) {
-            if (repeatChar(word) &&  i<= wordList.length) {
+            if (repeatChar(word) &&  i<= 1) {
                 repeat[i++]=word;
                 for (char x:word.toCharArray()){
                     letter.add(x);
